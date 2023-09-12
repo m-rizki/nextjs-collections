@@ -4,3 +4,4 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 
 - [x] Intro
 - [x] Routes : Pages, Layout, Links, Routes & Loading
+- [ ] Fetch Data
