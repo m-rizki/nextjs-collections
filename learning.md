@@ -29,6 +29,14 @@ export const revalidate = 3600 // revalidate at most every hour
 
 ### apply ssg on dynamic folder, example [userId]
 
+NextJs recommends SSG when possible
+
 next has no idea what value will be passed as a parameter. We can tell nextjs in advance what those possible parameters will be
 
 we will turn these SSR pages into the recommended SSG pages by apply generateStaticParams()
+
+### Page Not found
+
+when next tries to get a dynamic page that doesn't exist instead of just generating typical error we want to a 404
+
+next has default 404 page
