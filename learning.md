@@ -5,7 +5,7 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 - [x] Intro
 - [x] Routes : Pages, Layout, Links, Routes & Loading
 - [x] Fetch Data : Waterfall, Parallel, Loading UI, Streaming and Suspense
-- [ ] SSG - SSR - ISR
+- [x] SSG - SSR - ISR
 
 ## Fetch Data
 
