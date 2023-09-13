@@ -4,4 +4,12 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 
 - [x] Intro
 - [x] Routes : Pages, Layout, Links, Routes & Loading
-- [ ] Fetch Data
+- [x] Fetch Data : Waterfall, Parallel, Loading UI, Streaming and Suspense
+
+## Fetch Data
+
+branch : 02-fetch-data
+
+1. Waterfall
+2. Parallel to minimize waterfalls and reduce loading times
+3. Use Loading UI, Streaming and Suspense to progressively render a page and show a result to the user while rest of content loads.
