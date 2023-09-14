@@ -1,12 +1,10 @@
+import Navbar from "./components/navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "nextjs Collections | Home",
-  description: "Home Page",
+  title: "WikiRocket! | Home",
+  description: "WikiRocket Home Page",
 };
 
 export default function RootLayout({
@@ -16,8 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <nav>My Navbar</nav>
+      <body className="bg-slate-800">
+        <Navbar />
         {children}
       </body>
     </html>

@@ -6,7 +6,7 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 - [x] Routes : Pages, Layout, Links, Routes & Loading
 - [x] Fetch Data : Waterfall, Parallel, Loading UI, Streaming and Suspense
 - [x] SSG - SSR - ISR
-- [ ] Small Project
+- [x] Small Project -  wiki rocket
 
 ## Fetch Data
 

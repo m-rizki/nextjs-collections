@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## First Setup installation
 
+```sh
 √ Would you like to use TypeScript? ... Yes
 √ Would you like to use ESLint? ... Yes
 √ Would you like to use Tailwind CSS? ... Yes
@@ -11,6 +12,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 √ Would you like to use App Router? (recommended) ... Yes
 √ Would you like to customize the default import alias? ... Yes
 √ What import alias would you like configured? ... @/*
+```
 
 ## Getting Started
 
