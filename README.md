@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - 02-fetch-data
 - 03-ssg-ssr-isr
 - 05-small-project
+- 06-blog-website
 
 ## First Setup installation
 
