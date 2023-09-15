@@ -1,12 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "./components/navbar";
+import MyProfilePict from "./components/my-profile-pict";
 
 export const metadata: Metadata = {
-  title: "nextjs Collections | Home",
-  description: "Home Page",
+  title: "Rizki's Blog",
+  description: "Created by Muhamad Rizki",
 };
 
 export default function RootLayout({
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="dark:bg-slate-800">
+        <Navbar />
+        <MyProfilePict />
         {children}
       </body>
     </html>

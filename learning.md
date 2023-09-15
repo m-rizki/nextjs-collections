@@ -50,4 +50,12 @@ next has default 404 page
 # The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
 # we can use this package to generate articles from our markdown files
 npm install -D @tailwindcss/typography
-``
+```
+
+### Add react icons
+
+[react-icons](https://react-icons.github.io/react-icons)
+
+```bash
+npm install react-icons --save
+```
