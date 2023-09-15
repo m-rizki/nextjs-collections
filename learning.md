@@ -59,3 +59,11 @@ npm install -D @tailwindcss/typography
 ```bash
 npm install react-icons --save
 ```
+
+### Add gray matter
+
+[gray matter](https://github.com/jonschlinkert/gray-matter)
+
+```bash
+npm i gray-matter
+```
