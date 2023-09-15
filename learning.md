@@ -44,6 +44,8 @@ next has default 404 page
 
 ## Blog Website
 
+### Add some dependencies
+
 - [Changing the default classname](https://tailwindcss.com/docs/typography-plugin#changing-the-default-class-name)
 
 ```bash
@@ -52,18 +54,27 @@ next has default 404 page
 npm install -D @tailwindcss/typography
 ```
 
-### Add react icons
-
 [react-icons](https://react-icons.github.io/react-icons)
 
 ```bash
 npm install react-icons --save
 ```
 
-### Add gray matter
-
 [gray matter](https://github.com/jonschlinkert/gray-matter)
 
 ```bash
 npm i gray-matter
 ```
+
+[remark](https://www.npmjs.com/package/remark)
+[remark-html](https://www.npmjs.com/package/remark-html)
+
+```bash
+npm i remark remark-html
+```
+
+### ssg / ssr ?
+
+post route is a good example of a ssr pages can actually be SSG
+
+because we know what blog posts we're going to have in advance
