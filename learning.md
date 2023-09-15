@@ -41,3 +41,13 @@ we will turn these SSR pages into the recommended SSG pages by apply generateSta
 when next tries to get a dynamic page that doesn't exist instead of just generating typical error we want to a 404
 
 next has default 404 page
+
+## Blog Website
+
+- [Changing the default classname](https://tailwindcss.com/docs/typography-plugin#changing-the-default-class-name)
+
+```bash
+# The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
+# we can use this package to generate articles from our markdown files
+npm install -D @tailwindcss/typography
+``
