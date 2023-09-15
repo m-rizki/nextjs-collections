@@ -7,6 +7,7 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 - [x] Fetch Data : Waterfall, Parallel, Loading UI, Streaming and Suspense
 - [x] SSG - SSR - ISR
 - [x] Small Project -  wiki rocket
+- [x] Blog Website Part 1
 
 ## Fetch Data
 
