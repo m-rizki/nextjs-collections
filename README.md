@@ -4,12 +4,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Branch
 
+> **Warning**
+> branch `main` vs `main_src`
+>
+> `main_src` using `src/` directory configuration
+>
+> `main` is starting project for branch `01-intro-and-routes` - `06-blog-website`
+>
+> `main_src` is starting project for branch `07-route-handlers`
+
 - main
 - 01-intro-and-routes
 - 02-fetch-data
 - 03-ssg-ssr-isr
 - 05-small-project
 - 06-blog-website
+- main_src
+- 07-route-handlers
 
 ## First Setup installation
 
