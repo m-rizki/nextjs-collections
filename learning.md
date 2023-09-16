@@ -8,6 +8,7 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 - [x] SSG - SSR - ISR
 - [x] Small Project -  wiki rocket
 - [x] Blog Website Part 1
+- [x] Route Handlers
 
 ## Fetch Data
 
@@ -79,3 +80,26 @@ npm i remark remark-html
 post route is a good example of a ssr pages can actually be SSG
 
 because we know what blog posts we're going to have in advance
+
+## Route Handlers
+
+Backend API
+
+[route handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+
+### using thunder client
+
+- install thunder client vscode
+- create new request
+- send request
+- add parameters (optional)
+
+### static route handlers
+
+```bash
+http://localhost:3000/api/echo?name=rizki&nickname=iki&instrument=guitar
+
+http://localhost:3000/api/hello
+```
+
+### Dynamic route handlers with client form component
