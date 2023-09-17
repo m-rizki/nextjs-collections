@@ -46,6 +46,7 @@ export default function AddTodo() {
 
         startTransition(() => {
             if (pathname === "/add") {
+                router.refresh()
                 router.push('/')
             } else {
                 // Refresh the current route and fetch new data 
