@@ -24,7 +24,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - `08-rest-api`
 - `09-middleware`
 - `10-revalidation`
-- `11-mutations`
+- `11-mutations` , (!) older version approach
 
 ## First Setup installation
 
