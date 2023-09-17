@@ -10,6 +10,7 @@ source : [Next Js course playlist by Dave Gray](https://youtube.com/playlist?lis
 - [x] Blog Website Part 1
 - [x] Route Handlers
 - [x] Rest API
+- [x] Middleware
 
 ## Fetch Data
 
@@ -195,3 +196,29 @@ GET `http://localhost:3000/api/todos/199`
   "completed": true
 }
 ```
+
+## Middleware
+
+[nextjs middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
+
+middleware file is applies to every request on the web page, and that's mean we might want to limit where that middleware is applied
+
+middleware will be invoked for every route in your project
+
+### matcher
+
+[matcher](https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher)
+
+### Apply middleware
+
+example dependency : [rate limit](https://www.npmjs.com/package/limiter)
+
+```bash
+npm i limiter
+```
+
+[The Next.js Edge Runtime is based on standard Web APIs](https://nextjs.org/docs/app/api-reference/edge)
+
+when you're creating a rest API in next.js is that those API routes are always same origin only so you're always going to get a cores error unless you work around that now that is great if you don't want anybody else besides your own application to access your rest API but if you want to share it with the rest of the world or at least in a loud list of URLs where a few other websites are permitted to go ahead and access that API well then you need to know how to do this workaround and actually it's not so much of a workaround as it's just applying everything that the core's middleware does in a different way without using that(cors) dependency.
+
+### create allow origin

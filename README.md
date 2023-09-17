@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 >
 > `main` is starting project for branch `01-intro-and-routes` - `06-blog-website`
 >
-> `main_src` is starting project for branch `07-route-handlers` - `08-rest-api`
+> `main_src` is starting project for branch `07-route-handlers` - `09-middleware`
 
 - `main`
 - `01-intro-and-routes`
@@ -22,6 +22,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - `main_src`
 - `07-route-handlers`
 - `08-rest-api`
+- `09-middleware`
 
 ## First Setup installation
 
