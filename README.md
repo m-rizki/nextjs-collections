@@ -9,18 +9,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 >
 > `main_src` using `src/` directory configuration
 >
-> `main` is starting project for branch `01-intro-and-routes` - `06-blog-website`
+> `main` is starting project for branch `01-intro-and-routes` - `06-blog-website`, `10-revalidation`
 >
-> `main_src` is starting project for branch `07-route-handlers`
+> `main_src` is starting project for branch `07-route-handlers` - `11-mutations`
 
-- main
-- 01-intro-and-routes
-- 02-fetch-data
-- 03-ssg-ssr-isr
-- 05-small-project
-- 06-blog-website
-- main_src
-- 07-route-handlers
+- `main`
+- `01-intro-and-routes`
+- `02-fetch-data`
+- `03-ssg-ssr-isr`
+- `05-small-project`
+- `06-blog-website`
+- `main_src`
+- `07-route-handlers`
+- `08-rest-api`
+- `09-middleware`
+- `10-revalidation`
+- `11-mutations`
 
 ## First Setup installation
 
@@ -30,7 +34,7 @@ npx create-next-app@latest ./
 √ Would you like to use TypeScript? ... Yes
 √ Would you like to use ESLint? ... Yes
 √ Would you like to use Tailwind CSS? ... Yes
-√ Would you like to use `src/` directory? ... Yes
+√ Would you like to use `src/` directory? ... No # main_src using src/ directory (yes)
 √ Would you like to use App Router? (recommended) ... Yes
 √ Would you like to customize the default import alias? ... Yes
 √ What import alias would you like configured? ... @/*
